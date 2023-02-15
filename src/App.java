@@ -11,13 +11,12 @@
  public class App extends Window{
      
       public static void main(String[] args) {
-        
-         Location loc = new Location(600,100);
-         printSmiley(loc);
+        Window.open();
+         
      }
  
      public static void printSmiley(Location location){
- 
+       
      }
      
  }
